@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "487109480847",
+    "firebase_url": "https://realestate-6f14c.firebaseio.com",
+    "project_id": "realestate-6f14c",
+    "storage_bucket": "realestate-6f14c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487109480847:android:fd2fad4d41e8bdc6",
+        "android_client_info": {
+          "package_name": "com.example.android.nomaklerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "487109480847-osr0r7h8ee0bfjc1egckd4vvtblntla1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.nomaklerapp",
+            "certificate_hash": "88b8e6d306b78a91d7db85e872a87b9a146209b5"
+          }
+        },
+        {
+          "client_id": "487109480847-nse7vqlsd6omakso0dfjnhun11eg43ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcqXF8TCv6lFf6H31ztelOFV59_8JJFbg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "487109480847-nse7vqlsd6omakso0dfjnhun11eg43ul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ref_marker_color_entry_labels">
+        <item>@string/pref_marker_color_green_label</item>
+        <item>@string/pref_marker_color_cyan_label</item>
+        <item>@string/pref_marker_color_blue_label</item>
+        <item>@string/pref_marker_color_magneta_label</item>
+        <item>@string/pref_marker_color_orange_label</item>
+        <item>@string/pref_marker_color_red_label</item>
+        <item>@string/pref_marker_color_rose_label</item>
+        <item>@string/pref_marker_color_violet_label</item>
+        <item>@string/pref_marker_color_yellow_label</item>
+    </string-array>
+
+    <string-array name="ref_marker_color_entry_values">
+        <item>@string/pref_marker_color_green_value</item>
+        <item>@string/pref_marker_color_cyan_value</item>
+        <item>@string/pref_marker_color_blue_value</item>
+        <item>@string/pref_marker_color_magneta_value</item>
+        <item>@string/pref_marker_color_orange_value</item>
+        <item>@string/pref_marker_color_red_value</item>
+        <item>@string/pref_marker_color_rose_value</item>
+        <item>@string/pref_marker_color_violet_value</item>
+        <item>@string/pref_marker_color_yellow_value</item>
+    </string-array>
+</resources>

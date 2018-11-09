@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        app:key="@string/pref_marker_color_key"
+        app:title="@string/pref_marker_color_label"
+        app:entries="@array/ref_marker_color_entry_labels"
+        app:entryValues="@array/ref_marker_color_entry_values"
+        app:defaultValue="@string/pref_marker_color_default_value"
+        />
+    <Preference
+        app:key="@string/pref_sign_out_key"
+        app:title="@string/pref_sign_out_label"/>
+</PreferenceScreen>

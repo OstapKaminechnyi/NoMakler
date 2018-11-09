@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="on_screen_view_holder_width">246dp</dimen>
+    <dimen name="on_screen_view_holder_height">270dp</dimen>
+    <dimen name="on_screen_view_holder_view_pager_height">144dp</dimen>
+    <dimen name="on_screen_view_holder_text_view_text_size_price">17sp</dimen>
+    <dimen name="on_screen_view_holder_text_view_text_size_address">17sp</dimen>
+    <dimen name="on_screen_view_holder_text_view_card_margin_left_right">12dp</dimen>
+    <dimen name="on_screen_view_holder_text_view_card_top_bottom">6dp</dimen>
+
+    <dimen name="user_fav_view_holder_text_view_text_size_price">20sp</dimen>
+    <dimen name="user_fav_view_holder_text_view_text_size_address">20sp</dimen>
+    <dimen name="user_fav_view_holder_margin_left_right">8dp</dimen>
+    <dimen name="user_fav_view_holder_margin_top_bottom">4dp</dimen>
+    <dimen name="user_fav_view_holder_view_pager_height">384dp</dimen>
+
+
+    <dimen name="activity_estate_detail_view_pager_height">375dp</dimen>
+
+    <dimen name="fragment_user_fav_text_recycler_view_margin_left_right">24dp</dimen>
+
+
+</resources>
