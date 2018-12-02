@@ -2,37 +2,26 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="app_bar_height">180dp</dimen>
-    <dimen name="fab_margin">16dp</dimen>
-    <dimen name="text_margin">16dp</dimen>
-    <dimen name="fab_margin_top">32dp</dimen>
-    <dimen name="edit_text_padding">8dp</dimen>
-    <dimen name="text_input_layout_margin">8dp</dimen>
-    <dimen name="icon_margin">16dp</dimen>
-    <dimen name="status_bar_height">25dp</dimen>
-    <dimen name="text_view_close_margin">16dp</dimen>
-    <dimen name="text_view_card_margin">8dp</dimen>
-    <dimen name="detail_margin_top_bottom">16dp</dimen>
-    <dimen name="detail_nestes_scroll_padding_left_right">8dp</dimen>
-    <dimen name="view_hilder_on_screen">96dp</dimen>
 
-    <dimen name="on_screen_view_holder_width">164dp</dimen>
-    <dimen name="on_screen_view_holder_height">180dp</dimen>
-    <dimen name="on_screen_view_holder_view_pager_height">96dp</dimen>
-    <dimen name="on_screen_view_holder_text_view_text_size_price">17sp</dimen>
-    <dimen name="on_screen_view_holder_text_view_text_size_address">17sp</dimen>
-    <dimen name="on_screen_view_holder_text_view_card_margin_left_right">8dp</dimen>
-    <dimen name="on_screen_view_holder_text_view_card_top_bottom">3dp</dimen>
+    <!-- Buttons sizes -->
+    <dimen name="button_login_width">230dp</dimen>
+    <dimen name="button_login_height">1dp</dimen>
+    <dimen name="button_login_margin">5dp</dimen>
 
-    <dimen name="user_fav_view_holder_text_view_text_size_price">17sp</dimen>
-    <dimen name="user_fav_view_holder_text_view_text_size_address">17sp</dimen>
-    <dimen name="user_fav_view_holder_margin_left_right">8dp</dimen>
-    <dimen name="user_fav_view_holder_margin_top_bottom">4dp</dimen>
-    <dimen name="user_fav_view_holder_view_pager_height">150dp</dimen>
+    <!-- Property row -->
+    <dimen name="row_prop_width">380dp</dimen>
+    <dimen name="row_prop_height">175dp</dimen>
+    <dimen name="row_image_width">170dp</dimen>
+    <dimen name="margin_row_text">4dp</dimen>
 
 
-    <dimen name="activity_estate_detail_view_pager_height">250dp</dimen>
+    <!-- PropertyFragment dimensions -->
+    <dimen name="prop_header_height">68dp</dimen>
+    <dimen name="property_images_height">220dp</dimen>
+    <dimen name="property_margin">18dp</dimen>
 
-    <dimen name="fragment_user_fav_text_recycler_view_margin_left_right">8dp</dimen>
+    <!-- Search dimensions -->
+    <dimen name="search_margin">32dp</dimen>
+
 
 </resources>

@@ -1,208 +1,46 @@
 <resources>
-    <!--<string name="goog.e_web_client_id">435820862512-4ftqkhk219nkmom47bd4ofdrt834rn45.apps.googleusercontent.com</string>-->
-    <string name="goog.e_web_client_id">487109480847-nse7vqlsd6omakso0dfjnhun11eg43ul.apps.googleusercontent.com</string>
-
-    <string name="goog.e_api_key">AIzaSyBfGyRJ8EZWuQibLanyZEM4OKSMabV-Feo</string>
-    <string name="app_name">NoMaklerApp</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_activity_scrolling">ScrollingActivity</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
-
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
-
-        "Bold, graphic, intentional.\n\n"
-
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
-
-        "Motion provides meaning.\n\n"
-
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
-
-        "3D world.\n\n"
-
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
-
-        "Light and shadow.\n\n"
-
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
-    </string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_slider">SliderActivity</string>
-    <string name="title_activity_second">SecondActivity</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_login">Sign in</string>
-
-    <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
-    <string name="hint_enter_password">Enter Password</string>
-    <string name="hint_enter_username">Enter Username</string>
-    <string name="toast_remove_estate_scuccess">Removed estate !</string>
-    <string name="toast_add_estate_success">Added estate</string>
-    <string name="sign_in_warning">You have to sign in!</string>
-    <!--***************-->
-    <!--Preference-->
-    <!--***************-->
-
-    <!--MarkerColorPref-->
-    <string name="pref_marker_color_key">pref_marker_color_key</string>
-    <string name="pref_marker_color_label">Marker Colors</string>
-    <string name="pref_marker_color_default_value" translatable="false">@string/pref_marker_color_rose_value</string>
-
-    <string name="pref_marker_color_cyan_label">Cyan</string>
-    <string name="pref_marker_color_cyan_value" translatable="false">180</string>
-    <string name="pref_marker_color_green_label">Green</string>
-    <string name="pref_marker_color_green_value" translatable="false">120</string>
-    <string name="pref_marker_color_azure_label">Azure</string>
-    <string name="pref_marker_color_azure_value" translatable="false">210</string>
-    <string name="pref_marker_color_blue_label">Blue</string>
-    <string name="pref_marker_color_blue_value" translatable="false">240</string>
-    <string name="pref_marker_color_magneta_label">Magneta</string>
-    <string name="pref_marker_color_magneta_value" translatable="false">300</string>
-    <string name="pref_marker_color_orange_label">Orange</string>
-    <string name="pref_marker_color_orange_value" translatable="false">30</string>
-    <string name="pref_marker_color_red_label">Red</string>
-    <string name="pref_marker_color_red_value" translatable="false">0</string>
-    <string name="pref_marker_color_rose_label">Rose</string>
-    <string name="pref_marker_color_rose_value" translatable="false">330</string>
-    <string name="pref_marker_color_violet_label">Viloet</string>
-    <string name="pref_marker_color_violet_value" translatable="false">270</string>
-    <string name="pref_marker_color_yellow_label">Yellow</string>
-    <string name="pref_marker_color_yellow_value" translatable="false">60</string>
-
-    <!--SignoutPre-->
-    <string name="pref_sign_out_key" translatable="false">pref_sign_out_key</string>
-    <string name="pref_sign_out_label">Sign Out</string>
-    <string name="estate_price_label">Price</string>
-    <string name="desc_label">Description:</string>
-    <!-- Filter Dialog -->
-    <string name="filter_dialog_cancel">Cancel</string>
-    <string name="filter_dialog_title">Filter</string>
-    <string name="filter_dialog_reset">Reset</string>
-    <string name="filter_location_search">Search Here</string>
-    <string name="filter_price_range">Price Range</string>
-    <string name="hint_min"><font size="10">Min</font></string>
-    <string name="hint_max"><font size="10">Max</font></string>
-    <string name="filter_property_type">Property Type</string>
-    <string name="filter_any">Any</string>
-    <string name="filter_apartments">Apartments</string>
-    <string name="filter_houses">Houses</string>
-    <string name="filter_rooms">Rooms</string>
-    <string name="filter_garages">Garages</string>
-    <string name="filter_commercial">Commercial</string>
-    <string name="filter_renter_type">Renter Type</string>
-    <string name="filter_boys">Boys</string>
-    <string name="filter_girls">Girls</string>
-    <string name="filter_family">Family</string>
-    <string name="filter_sublet">Sublet</string>
-    <string name="filter_office">Office</string>
-    <string name="filter_bedrooms">Bedrooms</string>
-    <string name="filter_1">1</string>
-    <string name="filter_2">2</string>
-    <string name="filter_3">3</string>
-    <string name="filter_4_plus">4+</string>
-    <string name="filter_bathrooms">Bathrooms</string>
-    <string name="filter_3_plus">3+</string>
-    <string name="filter_square_footage">Square Footage</string>
-    <string name="filter_amenities">Facilities</string>
-    <string name="filter_wasa_connection">WASA Connection</string>
-    <string name="filter_desco_connection">DESCO Connection</string>
-    <string name="filter_titas_gas_connection">TITAS GAS Connection</string>
-    <string name="filter_balcony">Balcony</string>
-    <string name="filter_roof_top_garden">Roof Top Garden</string>
-    <string name="filter_generator">Generator</string>
-    <string name="filter_lift">Lift</string>
-    <string name="filter_guard_s_rooms">Guard\'s Rooms</string>
-    <string name="filter_additional_basement_carpark">Additional Basement Car-Park</string>
-    <string name="filter_view_results">VIEW RESULTS</string>
-
-    <string-array name="locations_array">
-        <item>Select Location</item>
-        <item>Levandivka</item>
-
-    </string-array>
-
+    <string name="google_maps_key" translatable="false">AIzaSyCb12op8RHxcSA-xlM_ovNzNZKLlnf-y3w</string>
+    <string name="navigation_drawer_open">Відкрито</string>
+    <string name="navigation_drawer_close">Закрито</string>
+    <string name="app_name" translatable="false">NoMakler</string>
+    <string name="sqm_value">%1$d sq m</string>
+    <string name="price_tag">₴%1$d</string>
+    <string name="available">Оренда</string>
+    <string name="unavailable">Продаж</string>
+    <string name="action_edit">Редагувати</string>
+    <string name="description">Опис</string>
+    <string name="surface">Загальна площа</string>
+    <string name="rooms_count">%1$d кімнати</string>
+    <string name="entry_date">Додано</string>
+    <string name="address">Адреса</string>
+    <string name="location">Місто</string>
+    <string name="type">Тип</string>
+    <string name="dollarsign" translatable="false">₴</string>
+    <string name="cancel">Відмінити</string>
+    <string name="done">Додано</string>
+    <string name="add_a_picture">Додати фотографію</string>
+    <string name="property_created">Успішно створено оголошення</string>
+    <string name="edit_error">Щось пішло не так. Переконайтеся, що всі введені значення дійсні.</string>
+    <string name="apply">Застосувати</string>
+    <string name="price">Ціна</string>
+    <string name="pictures">Фотографії</string>
+    <string name="agent">Власник</string>
+    <string name="sale_date">Оновлено</string>
+    <string name="search">Пошук</string>
+    <string name="map">Карта</string>
+    <string name="all">Всі</string>
+    <string name="reset_filters">Скинути всі фільтри</string>
+    <string name="date_format">dd/mm/yyyy</string>
+    <string name="type_hint">Будинок, квартира, кімната</string>
+    <string name="location_hint">Місто, село</string>
+    <string name="close">Закрити</string>
+    <string name="to">до</string>
+    <string name="rooms">Кімнати</string>
+    <string name="sqm">кв. м</string>
+    <string name="property_placeholder">Торкніться оголошення у списку, щоб показати його деталі</string>
+    <string name="title_home">Головна</string>
+    <string name="title_map">Карта</string>
+    <string name="title_search">Пошук</string>
+    <string name="number">Контакти</string>
 
 </resources>
