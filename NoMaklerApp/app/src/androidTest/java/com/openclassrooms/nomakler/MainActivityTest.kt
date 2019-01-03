@@ -24,9 +24,7 @@ import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
 
-/**
- * Created by Mickael Hernandez on 15/07/2018.
- */
+
 @RunWith(AndroidJUnit4::class)
 
 class MainActivityTest {
