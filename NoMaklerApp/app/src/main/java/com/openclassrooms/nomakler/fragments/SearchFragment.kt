@@ -23,9 +23,7 @@ import kotlinx.android.synthetic.main.fragment_search.*
 import java.text.SimpleDateFormat
 import java.util.*
 
-/**
- * Created by Mickael Hernandez on 03/07/2018.
- */
+
 class SearchFragment : Fragment() {
     private lateinit var viewModel : FiltersViewModel
     private lateinit var binding: ViewDataBinding
